@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/canghaiyishengxiao2021/dadonggua.git"
+        "url": "git+https://github.com/dongguaku/dadonghua.git"
     },
     "keywords": [
         "sign"
@@ -16,9 +16,9 @@
     "author": "canghaiyishengxiao2021",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/canghaiyishengxiao2021/dadonggua/issues"
+        "url": "https://github.com/dongguaku/dadonghua/issues"
     },
-    "homepage": "https://github.com/canghaiyishengxiao2021/dadonggua#readme",
+    "homepage": "https://github.com/dongguaku/dadonghua#readme",
     "dependencies": {
         "download": "^8.0.0",
         "request": "^2.88.2",
