@@ -113,8 +113,8 @@ async function executeOneByOne() {
           
   } else {
          
-       //console.log(hideme(rcontent));
-console.log(rcontent);
+       console.log(hideme(rcontent));
+//console.log(rcontent);
      }
     }
 }
@@ -139,7 +139,7 @@ async function start() {
 else
  SyncUrl = process.env.SYNCURL; 
 
-console.log(SyncUrl)
+
     
     if (!Efork) {
      
