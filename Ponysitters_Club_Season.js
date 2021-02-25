@@ -128,12 +128,15 @@ async function start() {
      
         return;
     
-    if (process.env.SYNCURL.indexOf('http')>0)
+    if (process.env.SYNCURL.indexOf('http')==0)
     {if (!process.env.GITHUB)   return;
     
-    SyncUrl = process.env.GITHUB+process.env.SYNCURL; }
+    SyncUrl = process.env.GITHUB+process.env.SYNCURL;
+ }
 else
  SyncUrl = process.env.SYNCURL; 
+
+console.log(SyncUrl)
     }
     if (!Efork) {
      
