@@ -172,7 +172,7 @@ else
 start();
 
 
-async function hideme(st)
+function hideme(st)
 {let fn1=""
 var zg =  /^[0-9a-zA-Z]*$/;
 
