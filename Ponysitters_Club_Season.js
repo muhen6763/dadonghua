@@ -128,7 +128,7 @@ async function start() {
      
         return;
     
-    if process.env.SYNCURL.indexOf('http')>0
+    if (process.env.SYNCURL.indexOf('http')>0)
     {if (!process.env.GITHUB)   return;
     
     let SyncUrl = process.env.GITHUB+process.env.SYNCURL; }
