@@ -73,7 +73,7 @@ async function changeFiele(content, cookie) {
     newContent = newContent.replace(/require\('.\/(\w+)ShareCodes.js\'\)/g, JSON.stringify(shareCodes)); 
  
     newContent =newContent.replace(/var Key = ''/, `var Key = '${cookie}'`);
-       if (!fHELPURL)  
+       if (!HELPURL)  
       console.log(`木有互助码数据，请在secret中加入朱丽娜网址`);
       else
      newContent =newContent.replace(`https://raw.githubusercontent.com/jd1994527314/iosrule/cs/JD_TG`, `${HELPURL}` );
