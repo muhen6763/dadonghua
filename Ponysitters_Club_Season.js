@@ -130,8 +130,10 @@ async function start() {
     
     if (process.env.SYNCURL.indexOf('http')==0)
     {if (!process.env.GITHUB)   return;
-    
+    console.log("拉泡屎")
     SyncUrl = process.env.GITHUB+process.env.SYNCURL;
+
+console.log(SyncUrl)
  }
 else
  SyncUrl = process.env.SYNCURL; 
