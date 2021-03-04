@@ -34,6 +34,7 @@ jobs:
                   BARK_PUSH: ${{ secrets.BARK_PUSH }}
                   PUSH_KEY: ${{ secrets.PUSH_KEY }}
                   TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+                  PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
                   TG_USER_ID: ${{ secrets.TG_USER_ID }}
                   EFORK: ${{ secrets.EFORK }}
                   GITHUB: ${{ secrets.GITHUB }}
